@@ -63,7 +63,7 @@ public class CodeEditText extends AppCompatEditText {
 	protected static AtomicBoolean syntaxLoaded = new AtomicBoolean(false);
 	
 	// The default indentation (two spaces)
-	public static final String indent = "  ";
+	public static final String indent = " ";
 	
 	// Syntax highlighter information
 	protected Token[] tokens;
