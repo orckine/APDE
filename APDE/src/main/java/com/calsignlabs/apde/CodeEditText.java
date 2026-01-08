@@ -315,7 +315,7 @@ public class CodeEditText extends AppCompatEditText {
 						if (!FLAG_NO_UNDO_SNAPSHOT) {
 							flagTab = true;
 						}
-						getText().insert(getSelectionStart(), "  ");
+						getText().insert(getSelectionStart(), " ");
 						flagTab = false;
 						
 						return true;
